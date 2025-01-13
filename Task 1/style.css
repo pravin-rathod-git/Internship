@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    font-family: arial;
+    border: border-box;
+
+}
+
+.landing-header {
+    background-color: #22223b;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px; /* 30px distance between the logo and text */
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.site-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+/* Nav-Bar*/
+.nav-bar {
+    background-color: #4a4e69;
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar a:hover {
+    background-color: #555;
+}
+
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .nav-bar a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/**image-text-section **/
+.image-text-section {
+    display: flex;
+    width: 100%;
+    height: 400px; /* Adjust height as per your requirement */
+}
+
+.image-container, .text-container {
+    width: 50%; /* Split into half */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire half without distortion */
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f2e9e4; /* Optional background color */
+}
+
+.text-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+/** shop-section**/
+
+
+
+/** car-container**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.car-box {
+    width: 30%; /* Each box takes 30% width for 3 in a row */
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    position: relative; /* To position See more on top of the image */
+    transition: transform 0.3s ease;
+}
+
+.car-box:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.car-content {
+    padding: 15px;
+    position: relative;
+}
+
+.car-content h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.car-img {
+    width: 100%;
+    height: 250px; /* Adjusted height for the image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.car-content p {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.car-content p:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 768px) {
+    .car-box {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px;
+    }
+}
+/*footer*/
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 30%; /* Each section takes up about a third of the width */
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #f4f4f4;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .footer-section {
+        width: 100%; /* Full width on smaller screens */
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
