@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #f9f9f9;
+    background-color: black;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: black;
+    color: cyan;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid cyan;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Skills Section */
+  .skills {
+    background-color: cyan ;
+    color: black;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+  }
+  
+  .skills li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: black;
+    color: cyan ;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact a {
+    color: cyan ;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Resume Section */
+  .resume {
+    background-color: cyan ;
+    color: black;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .resume h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .resume a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .resume a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: black;
+    color: cyan ;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
